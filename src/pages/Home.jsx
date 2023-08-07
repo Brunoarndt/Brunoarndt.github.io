@@ -48,7 +48,7 @@ function Home() {
             </div>
             <div className='Home_Activities_Card px-8'>
               <div className='bg-white rounded-lg shadow-lg w-full flex flex-col'>
-                <img className='border-gray-700 border-4' src="https://picsum.photos/312/312" alt="" />
+                <img className='border-gray-700 border-4' src="../../../images/Activities.jpg" alt="" />
                 <div className='p-4 my-2 flex-grow'>
                   <h4 className='font-bold'>LatinoWare</h4>
                   <p className='text-gray-600'>29/30 de Outubro</p>
@@ -65,7 +65,7 @@ function Home() {
             <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
               <div className="md:5/12 lg:w-5/12">
                 <img
-                  src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
+                  src="../../../images/AboutUs.jpg"
                   alt="image"
                   loading="lazy"
                   width=""
