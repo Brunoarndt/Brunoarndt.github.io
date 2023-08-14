@@ -1,10 +1,10 @@
 import StandardLayout from "../components/StandardLayout/StandardLayout"
 
+
 const Contato = () => {
   return (
     <>
     <StandardLayout>
-        
     </StandardLayout>
     </>
   )

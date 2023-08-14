@@ -1,11 +1,21 @@
 import StandardLayout from '../components/StandardLayout/StandardLayout'
-import Banner from '../components/banner'
+
 
 function Home() {
   return (
     <>
       <StandardLayout>
-        <Banner />
+        <div className='h-screen block md:flex'>
+          <div className="md:w-6/12 px-8 text-[#050038] bg-[#FCFFB2]">
+            <h1 className='pt-32 pb-10 text-6xl'>Colmeia</h1>
+            <p className='text-xl py-4' > Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit itaque eum, voluptatem molestiae voluptas consectetur porro velit quibusdam similique, illum tempore fugiat optio vero eos quis dolores, iure sint. Libero. </p>
+            <p className='text-lg shadow-lg shadow-indigo-500 border-2 border-[#050038] hover:bg-zinc-400 float-right px-2'><a href="">Conheça nosso grupo</a></p>
+          </div>
+          <div className="md:w-6/12" id="image">
+            
+          </div>
+        </div>
+        <div className="bg-[#FCFFB2]">
         <div className="mx-auto">
           <div className="flex flex-row-reverse items-center py-12 md:py-16">
             <div className="px-10">
@@ -46,21 +56,10 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className='Home_Activities_Card px-8'>
-              <div className='bg-white rounded-lg shadow-lg w-full flex flex-col'>
-                <img className='border-gray-700 border-4' src="../../../images/Activities.jpg" alt="" />
-                <div className='p-4 my-2 flex-grow'>
-                  <h4 className='font-bold'>LatinoWare</h4>
-                  <p className='text-gray-600'>29/30 de Outubro</p>
-                  <p className='mt-2 flex-grow'>...</p>
-                  <a href="#">Saiba Mais</a>
-                </div>
-              </div>
-            </div>
           </div>
           
         </div>
-        <div className="py-16 bg-[#F5F5F5]">
+        <div className="py-16">
           <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
             <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
               <div className="md:5/12 lg:w-5/12">
@@ -68,8 +67,7 @@ function Home() {
                   src="../../../images/AboutUs.jpg"
                   alt="image"
                   loading="lazy"
-                  width=""
-                  height=""
+                  className="rounded-lg shadow-lg"
                 />
               </div>
               <div className="md:7/12 lg:w-6/12">
@@ -98,6 +96,8 @@ function Home() {
             </div>
           </div>
         </div>
+        </div>
+        
       </StandardLayout>
     </>
   );
