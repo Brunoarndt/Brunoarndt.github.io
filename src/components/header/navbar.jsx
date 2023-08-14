@@ -18,8 +18,7 @@ export default function Navbar() {
           <NavLink to='/'><a href=""><img src={logo} alt="logo" className="w-10 h-10"/></a></NavLink>
         </div>
         <div className="flex">
-          <NavbarItem path='/atividades' name='atividades'/>
-          <NavbarItem path='/frentes' name='frentes'/>
+          <NavbarItem path='/projetos' name='projetos'/>
           <NavbarItem path='/sobrenos' name='sobre nós'/>
           <NavbarItem path='/contato' name='contato'/>
         </div>
