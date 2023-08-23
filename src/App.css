@@ -8,9 +8,8 @@ body, html {
 .Home_Activities_Card{
   width: 50%;
 }
-#image{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/time.jpg');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+#pattern{
+  background-image: url('../../images/pattern.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }

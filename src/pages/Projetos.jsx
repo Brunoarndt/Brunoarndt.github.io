@@ -1,43 +1,23 @@
 import StandardLayout from '../components/StandardLayout/StandardLayout'
+import Banner from '../components/Banner/Banner';
 
 
-
-function Atividades() {
+function Projetos() {
   return (
     <>
     <StandardLayout>
-      <body className="bg-slate-500">
-        <div className="mx-auto px-4 py-8">
-          <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-              <div className="md:5/12 lg:w-5/12">
-                <img
-                  src="../../../images/AboutUs.jpg"
-                  alt="image"
-                  loading="lazy"
-                  className="rounded-lg shadow-lg"
-                />
-              </div>
-              <div className="md:7/12 lg:w-6/12">
-                <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
-                  Projeto Caixa de Areia
-                </h2>
-                <p className="mt-6 text-gray-600">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-                  omnis voluptatem accusantium nemo perspiciatis delectus atque
-                  autem! Voluptatum tenetur beatae unde aperiam, repellat
-                  expedita consequatur! Officiis id consequatur atque
-                  doloremque!
-                </p>
-              </div>
-            </div>
+      <Banner>
+        <div className='w-1/2 pt-32 px-8 text-text'>
+          <span className='text-4xl font-bold border-b-2 border-text'>Projetos</span>
+          <p className='mt-4 text-xl'> Nossas areas são divididas em Software, Hardware e Comunicação Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
         </div>
-      </body>
-      
+      </Banner>
+      <div className="container mx-auto px-6 text-text md:px-12 xl:px-6">
 
-      
+      </div>
     </StandardLayout>
     </>
   )
 }
 
-export default Atividades
+export default Projetos
