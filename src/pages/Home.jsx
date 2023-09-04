@@ -78,7 +78,7 @@ function Home() {
                   veniam aspernatur quam mollitia.
                 </p>
                 <p className="mt-8">
-                  <a className="btn" href="/SobreNos">
+                  <a className="btn" href="/projetos">
                     Conheça mais
                   </a>
                 </p>
