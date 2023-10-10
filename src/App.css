@@ -13,3 +13,9 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#about{
+  background-image: url('../../images/AboutUs.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
