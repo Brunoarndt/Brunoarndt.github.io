@@ -14,7 +14,7 @@ export default function Navbar() {
     <>
     <header>
       <nav className="font-lato flex justify-between py-4 md:px-12 px-4 items-baseline w-full absolute">
-        <div className="mb-2 sm:mb-0">
+        <div className="mb-2 sm:mb-0 ml-3 sm:ml-0">
           <NavLink to='/'><img src={logo} alt="logo" className="w-10 h-10"/></NavLink>
         </div>
         <div className="flex">
