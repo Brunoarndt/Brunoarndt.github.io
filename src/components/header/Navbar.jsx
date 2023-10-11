@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <>
     <header>
-      <nav className="font-lato flex flex-col text-center sm:flex-row sm:text-left sm:justify-between py-4 px-6 sm:items-baseline w-full absolute">
+      <nav className="font-lato flex justify-between py-4 md:px-12 px-4 items-baseline w-full absolute">
         <div className="mb-2 sm:mb-0">
           <NavLink to='/'><img src={logo} alt="logo" className="w-10 h-10"/></NavLink>
         </div>

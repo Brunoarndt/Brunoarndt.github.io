@@ -7,10 +7,10 @@ function Home() {
       <StandardLayout>
         <Banner>
           <div className='h-screen flex'>
-            <div className="w-6/12 px-8 text-text">
+            <div className="sm:w-6/12 px-8 text-text">
               <h1 className='pt-32 pb-10 text-6xl'>Colmeia</h1>
               <p className='text-xl py-4' > Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit itaque eum, voluptatem molestiae voluptas consectetur porro velit quibusdam similique, illum tempore fugiat optio vero eos quis dolores, iure sint. Libero. </p>
-              <p className='text-lg text-center bg-secondary hover:text-text text-white py-2 w-2/5 mt-12 rounded-full'><a href="">Conheça nosso grupo</a></p>
+              <p className='text-lg text-center bg-secondary hover:text-text text-white py-2 w-4/5 sm:w-2/5 mt-12 rounded-full'><a href="">Conheça nosso grupo</a></p>
             </div>
           </div>
         </Banner>
@@ -28,7 +28,7 @@ function Home() {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
               </div>
-              <div className='mx-11'>
+              <div className='mx-11 py-6'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 m-auto h-6">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
                 </svg>
@@ -52,7 +52,7 @@ function Home() {
         <div className="py-16">
           <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
             <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-              <div className="md:5/12 lg:w-5/12">
+              <div className=" lg:w-5/12">
                 <img
                   src="../../../images/AboutUs.jpg"
                   alt="image"
@@ -90,9 +90,18 @@ function Home() {
           <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
             <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
             <div className="md:7/12 lg:w-6/12">
+                <div className="sm:hidden md:5/12 pb-4 lg:w-5/12">
+                  <img
+                    src="../../../images/AboutUs.jpg"
+                    alt="image"
+                    loading="lazy"
+                    className="rounded-lg shadow-lg"
+                  />
+                </div>
                 <h2 className="text-2xl text-text font-bold md:text-4xl">
                   Sobre o Grupo
                 </h2>
+                
                 <p className="mt-6 text-gray-600">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
                   omnis voluptatem accusantium nemo perspiciatis delectus atque
@@ -112,7 +121,7 @@ function Home() {
                   </a>
                 </p>
               </div>
-              <div className="md:5/12 lg:w-5/12">
+              <div className="hidden sm:block md:5/12 lg:w-5/12">
                 <img
                   src="../../../images/AboutUs.jpg"
                   alt="image"
