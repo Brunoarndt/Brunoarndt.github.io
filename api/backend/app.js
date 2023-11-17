@@ -5,6 +5,7 @@ import cors from "cors";
 
 import userRoute from "./src/routes/user.routes.js";
 import authRoute from "./src/routes/auth.routes.js";
+import projectsRoute from "./src/routes/projects.routes.js"
 
 const corsOptions = {
   origin: "http://localhost:3001",
@@ -18,6 +19,8 @@ app.use(json());
 app.use(cors(corsOptions));
 app.use("/user", userRoute);
 app.use("/auth", authRoute);
+app.use("/projects", projectsRoute);
+
 
 const port = process.env.PORT || 3000;
 

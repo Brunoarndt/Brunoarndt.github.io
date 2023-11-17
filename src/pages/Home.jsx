@@ -1,6 +1,7 @@
 import StandardLayout from '../components/StandardLayout/StandardLayout'
 import Banner from '../components/Banner/Banner';
 
+
 function Home() {
   return (
     <>
@@ -10,7 +11,7 @@ function Home() {
             <div className="sm:w-6/12 px-8 text-text">
               <h1 className='pt-32 pb-10 text-6xl'>Colmeia</h1>
               <p className='text-xl py-4' > Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit itaque eum, voluptatem molestiae voluptas consectetur porro velit quibusdam similique, illum tempore fugiat optio vero eos quis dolores, iure sint. Libero. </p>
-              <p className='text-lg text-center bg-secondary hover:text-text text-white py-2 w-4/5 sm:w-2/5 mt-12 rounded-full'><a href="">Conheça nosso grupo</a></p>
+              <p className='text-lg text-center bg-secondary hover:text-text text-white py-2 w-4/5 sm:w-2/5 mt-12 rounded-full'><a href="/sobrenos">Conheça nosso grupo</a></p>
             </div>
           </div>
         </Banner>
