@@ -153,8 +153,6 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-
-                {/* <!--Copyright section--> */}
                 <div className="bg-secondary p-6 text-center">
                     <span>© 2023 Copyright </span>
                     <span
