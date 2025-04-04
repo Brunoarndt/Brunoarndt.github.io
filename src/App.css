@@ -9,13 +9,13 @@ body, html {
   width: 50%;
 }
 #pattern{
-  background-image: url('../../images/pattern.png');
+  background-image: url('/images/pattern.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
 }
 #about{
-  background-image: url('../../images/AboutUs.jpg');
+  background-image: url('/images/AboutUs.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
